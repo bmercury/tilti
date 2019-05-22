@@ -1,0 +1,128 @@
+$blue: #3b74ad;
+$black: #222222;
+
+body, #root{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}
+
+.logo{
+    width: 40%;
+    margin: auto;
+    display: block;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    .body{
+        flex-grow: 1;
+        padding: 5vw;
+        text-align: justify;
+    }
+    .body--no-padding{
+        padding: 0;
+    }
+    .buttons{
+        display: flex;
+        flex-direction: column;
+        flex-shrink: 1;
+
+        a{
+            width: 100%;
+        }
+    }
+
+    .buttons--inline{
+        flex-direction: row;
+
+        .button{
+            height: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+    }
+}
+
+
+a{
+    text-decoration: none;
+}
+
+.button{
+    display: block;
+    width: 100%;
+    padding: 6vw;
+    border: none;
+    font-size: 1em;
+    text-transform: uppercase;
+    margin: 0;
+    flex-grow: 1;
+}
+.button--blue{
+    background-color: $blue;
+    color: white;
+
+    &:active, &:focus{
+        background-color: darken($blue,10);
+        outline: 0;
+    }
+}
+.button--black{
+    background-color: $black;
+    color: white;
+    
+    &:active, &:focus{
+        background-color: darken($black,10);
+        outline: 0;
+    }
+}
+
+.appNav{
+    width: 100%;
+    background-color: $black;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+
+    svg{
+        width: 8vw !important;
+        height: 8vw !important;
+    }
+    
+    a{
+        padding: 4vw 0;
+        color: rgb(65,65,65);
+        // width: 100%;
+        height: 100%;
+        flex-grow: 1;
+        text-align: center;
+
+        &:last-child{
+            border: none;
+        }
+    }
+}
+
+.mapFrame{
+    width: 100vw;
+    height: 100%;
+    border: none;
+}
+
+.bridgeItem{
+    img{
+        width: 100%;
+    }
+}
+
+.bridgeList{
+    margin-bottom: 18vw;
+}

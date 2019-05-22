@@ -1,2 +1,2 @@
-# tilti
+# Tilti
 Lietotne Saldus novada svētkiem

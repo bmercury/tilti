@@ -17,24 +17,19 @@ class Bridge extends React.Component {
   render(){
 
     const { match: { params } } = this.props;
-    const selectedBridge = bridgeData[params.bridgeId];
-    // const bridgeList = BridgeData.map(bridgeItem => {
-    //   return (
-    //     <div className="bridgeItem">
-    //       <NavLink to="/bridge/:2">
-    //         <img src={require(".././img/bridges/"+bridgeItem.orderId+"/i.jpg")} />
-    //         <span className="bridgeIdLabel">{bridgeItem.orderId}</span>
-    //       </NavLink>
-    //     </div>
-    //   )
-    // });
+    const selectedBridge = BridgeData[params.bridgeId-1];
 
     return (
       <div className="container">
-        <div className="body bridgeList">
-          {selectedBridge.orderId}
+        <div className="bridgeItem">
+          <img src={require("../img/bridges/"+params.bridgeId+"/i.jpg")} className="bridgeViewImage" />
+          <div class="paddingContainer">
+            <span className="bridgeIdLabel">{selectedBridge.orderId}</span>
+            <h1>{selectedBridge.title}</h1><br/>
+            <span>{selectedBridge.activities}</span>
+          </div>
         </div>
-        <Navbar />
+        <Navbar simple="true" />
       </div>
     );
   }

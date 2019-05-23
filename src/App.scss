@@ -115,17 +115,30 @@ a{
 
 .mapFrame{
     width: 100vw;
-    height: 94vh;
+    height: 90vh;
     border: none;
 }
 
 .bridgeItem{
     position: relative;
+    padding: 0;
     img{
         width: 100%;
     }
     margin-bottom: 5vw;
     // box-shadow: 0px 1px 4px rgba(0,0,0,0.2);
+
+    .paddingContainer{
+        h1{
+            font-weight: bold;
+            font-size: 1.6em;
+            margin: 0;
+        }
+    }
+}
+
+.paddingContainer{
+    padding: 5vw;
 }
 
 .bridgeList{
@@ -150,4 +163,12 @@ a{
     text-align: center;
     line-height: 15vw;
     font-size: 1.5em;
+}
+
+.userLocation{
+    background-color: rgb(52, 160, 52);
+    color: white;
+    padding: 4vw 1vw;
+    font-size: 1em;
+    text-align: center;
 }

@@ -1,17 +1,17 @@
 import React from 'react';
 import '.././App.scss';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faHome, faMap, faArrowUp, faMapPin } from '@fortawesome/free-solid-svg-icons';
+import { faHome, faMap, faList, faMapPin } from '@fortawesome/free-solid-svg-icons';
 
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
 function Navbar() {
   return (
     <nav className="appNav">
-        <Link to="/"><FontAwesomeIcon icon={faHome} /></Link>
-        <Link to="/map"><FontAwesomeIcon icon={faMap} /></Link>
-        <Link to="/bridges"><FontAwesomeIcon icon={faMapPin} /></Link>
-        <Link to="/"><FontAwesomeIcon icon={faArrowUp} /></Link>
+        <NavLink exact to="/" activeClassName="nav--active"><FontAwesomeIcon icon={faHome} /></NavLink>
+        <NavLink to="/map" activeClassName="nav--active"><FontAwesomeIcon icon={faMap} /></NavLink>
+        <NavLink to="/bridges" activeClassName="nav--active"><FontAwesomeIcon icon={faMapPin} /></NavLink>
+        <NavLink to="/schedule" activeClassName="nav--active"><FontAwesomeIcon icon={faList} /></NavLink>
     </nav>
   );
 }

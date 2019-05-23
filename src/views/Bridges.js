@@ -1,5 +1,5 @@
 import React from 'react';
-import { Route, Link, BrowserRouter as Router} from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
 import Home from "./Home";
 import Navbar from "./Navbar";
@@ -19,9 +19,10 @@ class Bridges extends React.Component {
     const bridgeList = BridgeData.map(bridgeItem => {
       return (
         <div className="bridgeItem">
-        <img src={require(".././img/bridges/"+bridgeItem.orderId+"/i.jpg")} />
-          {bridgeItem.title}<br/>
-          {bridgeItem.activities}
+          <NavLink to={"/bridge/"+bridgeItem.orderId}>
+            <img src={require(".././img/bridges/"+bridgeItem.orderId+"/i.jpg")} />
+            <span className="bridgeIdLabel">{bridgeItem.orderId}</span>
+          </NavLink>
         </div>
       )
     });

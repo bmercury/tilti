@@ -1,6 +1,5 @@
 import React from 'react';
 import '.././App.scss';
-import Bridge from '.././img/bridge_black.svg';
 import { Link } from "react-router-dom";
 import Navbar from "./Navbar";
 
@@ -8,10 +7,12 @@ function Home() {
   return (
     <div className="container">
         <div className="header">
-            <img className="logo" src={Bridge} alt="Tilta attēls" />
+            <img className="logo" src="https://www.lps.lv/uploads/news_module/4745.png" alt="Tilta attēls" />
         </div>
         <div className="body">    
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc gravida ullamcorper lacus a venenatis. Phasellus ac mi et tortor hendrerit vestibulum a quis justo. Cras eget erat at ex viverra dignissim. Proin vitae nisl sed leo luctus placerat. Morbi mollis pretium velit eget cursus. Quisque sit amet ex eu magna bibendum sollicitudin. Duis at tincidunt enim, sit amet finibus arcu. In volutpat lacus vel mi sodales interdum eu eget ante. Sed at dictum ligula. Donec porta sodales tincidunt. Maecenas commodo leo eget tortor tempor, eu rutrum eros feugiat. Vestibulum vitae ultricies quam. Fusce ornare augue nec orci facilisis iaculis. Maecenas massa nibh, fringilla at tortor a, sagittis ornare mauris.
+            Sadaļā "Karte" ir iespējams apskatīt visu izgaismoto tiltu izvietojumu.<br/> <br/>
+            Sadaļā "Tilti" atradīsi informāciju par katru no tiltiem.<br/> <br/>
+            Sadaļā "Programma" vari aplūkot pilnu svētku programmu ar visiem paredzētajiem pasākumiem un notikumiem.
         </div>
         <Navbar />
         {/* <div className="buttons">

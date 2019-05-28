@@ -8,7 +8,7 @@ import { NavLink } from "react-router-dom";
 class Navbar extends React.Component {
   render(){
 
-    if(this.props.simple=="true"){
+    if(this.props.simple==="true"){
       return (
         <nav className="appNav">
             <NavLink to="/bridges" activeClassName="nav--active"><FontAwesomeIcon icon={faChevronLeft} /></NavLink>

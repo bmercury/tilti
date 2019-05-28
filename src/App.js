@@ -4,7 +4,7 @@ import Bridges from "./views/Bridges";
 import Bridge from "./views/Bridge";
 import Map from "./views/Map";
 import Schedule from "./views/Schedule";
-import { Route, BrowserRouter as Router} from "react-router-dom";
+import { Route, HashRouter as Router} from "react-router-dom";
 import './App.scss';
 
 function App() {

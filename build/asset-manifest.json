@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/tilti/static/css/main.8320b9da.chunk.css",
+    "main.js": "/tilti/static/js/main.cbde593d.chunk.js",
+    "main.js.map": "/tilti/static/js/main.cbde593d.chunk.js.map",
+    "runtime~main.js": "/tilti/static/js/runtime~main.120c3200.js",
+    "runtime~main.js.map": "/tilti/static/js/runtime~main.120c3200.js.map",
+    "static/js/2.0438e34b.chunk.js": "/tilti/static/js/2.0438e34b.chunk.js",
+    "static/js/2.0438e34b.chunk.js.map": "/tilti/static/js/2.0438e34b.chunk.js.map",
+    "index.html": "/tilti/index.html",
+    "precache-manifest.0238a34a9e739042b98109171e239e53.js": "/tilti/precache-manifest.0238a34a9e739042b98109171e239e53.js",
+    "service-worker.js": "/tilti/service-worker.js",
+    "static/css/main.8320b9da.chunk.css.map": "/tilti/static/css/main.8320b9da.chunk.css.map",
+    "static/media/i.jpg": "/tilti/static/media/i.f3fae016.jpg",
+    "static/media/logo.png": "/tilti/static/media/logo.33a820ff.png",
+    "static/media/sponsor1.png": "/tilti/static/media/sponsor1.a719cac6.png",
+    "static/media/sponsor2.png": "/tilti/static/media/sponsor2.e672a369.png",
+    "static/media/sponsor3.png": "/tilti/static/media/sponsor3.71a498b7.png",
+    "static/media/sponsor4.png": "/tilti/static/media/sponsor4.257e4a89.png",
+    "static/media/sponsor5.png": "/tilti/static/media/sponsor5.257e4a89.png"
+  }
+}

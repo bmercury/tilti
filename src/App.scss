@@ -8,8 +8,19 @@ body, #root{
     font-family: Arial, Helvetica, sans-serif;
 }
 
+.schedule{
+    h1{
+        margin-top: 0;
+    }
+    // margin-bottom: 20vh;
+
+    .day{
+        margin-bottom: 10vh;
+    }
+}
+
 .logo{
-    width: 40%;
+    width: 100%;
     margin: auto;
     display: block;
 }
@@ -124,6 +135,7 @@ a{
     padding: 0;
     img{
         width: 100%;
+        border-radius: 2px;
     }
     margin-bottom: 5vw;
     // box-shadow: 0px 1px 4px rgba(0,0,0,0.2);
@@ -171,4 +183,15 @@ a{
     padding: 4vw 1vw;
     font-size: 1em;
     text-align: center;
+}
+
+.day{
+    h2{
+        color: $blue;
+
+        small{
+            color: $black;
+            font-weight: normal;
+        }
+    }
 }

@@ -1,12 +1,13 @@
 import React from 'react';
 import Navbar from "./Navbar";
 import '.././App.scss';
+import Logo from "../img/logo.png";
 
 function Home() {
   return (
     <div className="container">
         <div className="header">
-            <img className="logo" src="https://www.lps.lv/uploads/news_module/4745.png" alt="Tilta attēls" />
+            <img className="logo" src={Logo} alt="Tilta attēls" />
         </div>
         <div className="body">    
             Sadaļā "Karte" ir iespējams apskatīt visu izgaismoto tiltu izvietojumu.<br/> <br/>

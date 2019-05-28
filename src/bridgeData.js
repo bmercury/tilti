@@ -1,7 +1,7 @@
 const BridgeData = [
     {
         "orderId": 1,
-        "title": "Kalnsētas parka tilts 1",
+        "title": "Kalnsētas parka gājēju tiltiņš Nr. 1",
         "description": "Garums 7,13m <br> Platums 2,36m <br> augstums 1,2m <br> Pa vidus saliņa",
         "sponsors": [
             {
@@ -17,7 +17,7 @@ const BridgeData = [
     },
     {
         "orderId": 2,
-        "title": "Kalnsētas parka tilts 2",
+        "title": "Kalnsētas parka gājēju tiltiņš Nr. 2",
         "description": "Garums 7,13m <br/> Platums 2,36m <br/> augstums 1,2m",
         "sponsors": [
             {
@@ -33,7 +33,7 @@ const BridgeData = [
     },
     {
         "orderId": 3,
-        "title": "Kalnsētas parka tilts 3",
+        "title": "Kalnsētas parka gājēju tiltiņš Nr. 3",
         "description": "Garums 7,13m <br/> Platums 2,36m <br/> augstums 1,2m",
         "sponsors": [
             {
@@ -49,7 +49,7 @@ const BridgeData = [
     },
     {
         "orderId": 4,
-        "title": "Tilts ceļā uz Kalnsētas parku",
+        "title": "Kalnmuižas parka gājēju tiltiņš",
         "description": "Garums 7,13m <br/> Platums 2,36m <br/> augstums 1,2m",
         "sponsors": [
             {
@@ -65,7 +65,7 @@ const BridgeData = [
     },
     {
         "orderId": 5,
-        "title": "Tilts ceļā uz Kalnsētas parku",
+        "title": "Tilts pār cieceres upi uz Jelgavas ielas",
         "description": "Garums 7,13m <br/> Platums 2,36m <br/> augstums 1,2m",
         "sponsors": [
             {
@@ -77,7 +77,7 @@ const BridgeData = [
     },
     {
         "orderId": 6,
-        "title": "Tilts Jelgavas ielas krustojumā",
+        "title": "Jelgavas ielas tilts",
         "description": "Garums 7,13m <br/> Platums 2,36m <br/> augstums 1,2m",
         "sponsors": [
             {
@@ -105,7 +105,7 @@ const BridgeData = [
     },
     {
         "orderId": 7,
-        "title": "Tilts aiz sporta kompleksa",
+        "title": "Sporta skolas gājēju tiltiņš",
         "description": "Garums 7,13m <br/> Platums 2,36m <br/> augstums 1,2m",
         "sponsors": [
             {

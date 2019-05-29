@@ -13,7 +13,7 @@ class Bridge extends React.Component {
     const { match: { params } } = this.props;
     const selectedBridge = BridgeData[params.bridgeId-1];
     const logo = selectedBridge.sponsors.map(i=>{
-      return ( <div className="sponsorLogoImg"><img src={require("../img/bridges/"+selectedBridge.orderId+"/sponsor"+i.id+".png")}/></div> );
+      return ( <div key={Math.random()*Math.random()} className="sponsorLogoImg"><img alt="Sponsora logo" src={require("../img/bridges/"+selectedBridge.orderId+"/sponsor"+i.id+".png")}/></div> );
     })
 
     return (

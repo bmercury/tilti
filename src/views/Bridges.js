@@ -14,7 +14,7 @@ class Bridges extends React.Component {
       return (
         <div key={bridgeItem.orderId} className="bridgeItem">
           <NavLink to={"/bridge/"+bridgeItem.orderId}>
-            <img src={require(".././img/bridges/"+bridgeItem.orderId+"/i.jpg")} alt="Tilta attēls" />
+            <img className="bridgeViewImage" src={require(".././img/bridges/"+bridgeItem.orderId+"/i.jpg")} alt="Tilta attēls" />
             <span className="bridgeIdLabel">{bridgeItem.orderId}</span>
           </NavLink>
         </div>

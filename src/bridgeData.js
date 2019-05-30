@@ -2,7 +2,7 @@ const BridgeData = [
     {
         "orderId": 1,
         "title": "Kalnsētas parka gājēju tiltiņš Nr. 1",
-        "description": "Garums 7,13m <br> Platums 2,36m <br> augstums 1,2m <br> Pa vidus saliņa",
+        "description": "Garums 7,13m <br> Platums 2,36m <br> Augstums 1,2m <br> Pa vidus saliņa",
         "sponsors": [
             {
                 "id": 1,
@@ -13,12 +13,12 @@ const BridgeData = [
                 "title": "SIA Saldus Priede"
             }
         ],
-        "activities": "31. jūnijā plkst. 22.30 – 23.30  Saldus novada dzejnieku un mūziķu programma"
+        "activities": '31. jūnijā plkst. 22.30 – 23.30 Dzejas un mūzikas programma "Piepildījums".<br><br> <b>Piedalās Saldus novada dzejnieces:</b><br> Inta Švaža, Rūta Sakne, Sandra Medne, Silva Rēfelde, Biruta Ermansone, Laimdote Vištarte Leimante, Daiga Mickēviča<br><br>Andra Akermaņa muzikālais noformējums'
     },
     {
         "orderId": 2,
         "title": "Kalnsētas parka gājēju tiltiņš Nr. 2",
-        "description": "Garums 7,13m <br/> Platums 2,36m <br/> augstums 1,2m",
+        "description": "Garums 7,60m <br/> Platums 2,36m <br/> augstums 1,2m",
         "sponsors": [
             {
                 "id": 1,
@@ -29,12 +29,12 @@ const BridgeData = [
                 "title": "SIA Saldus Priede"
             }
         ],
-        "activities": "31. jūnijā plkst. 22.30 – 23.30  Saldus novada dzejnieku un mūziķu programma"
+        "activities": '31. jūnijā plkst. 22.30 – 23.30 Dzejas un mūzikas programma "Piepildījums".<br><br> <b>Piedalās Saldus novada dzejnieces:</b><br> Inta Švaža, Rūta Sakne, Sandra Medne, Silva Rēfelde, Biruta Ermansone, Laimdote Vištarte Leimante, Daiga Mickēviča<br><br>Andra Akermaņa muzikālais noformējums'
     },
     {
         "orderId": 3,
         "title": "Kalnsētas parka gājēju tiltiņš Nr. 3",
-        "description": "Garums 7,13m <br/> Platums 2,36m <br/> augstums 1,2m",
+        "description": "",
         "sponsors": [
             {
                 "id": 1,
@@ -45,12 +45,12 @@ const BridgeData = [
                 "title": "SIA Saldus Priede"
             }
         ],
-        "activities": "31. jūnijā plkst. 22.30 – 23.30  Saldus novada dzejnieku un mūziķu programma"
+        "activities": '31. jūnijā plkst. 22.30 – 23.30 Dzejas un mūzikas programma "Piepildījums".<br><br> <b>Piedalās Saldus novada dzejnieces:</b><br> Inta Švaža, Rūta Sakne, Sandra Medne, Silva Rēfelde, Biruta Ermansone, Laimdote Vištarte Leimante, Daiga Mickēviča<br><br>Andra Akermaņa muzikālais noformējums'
     },
     {
         "orderId": 4,
         "title": "Kalnmuižas parka gājēju tiltiņš",
-        "description": "Garums 7,13m <br/> Platums 2,36m <br/> augstums 1,2m",
+        "description": "",
         "sponsors": [
             {
                 "id": 1,
@@ -61,12 +61,12 @@ const BridgeData = [
                 "title": "A/S R & C"
             }
         ],
-        "activities": "23.50 Laulību ceremonija"
+        "activities": "plkst. 23.50 Laulību ceremonija"
     },
     {
         "orderId": 5,
         "title": "Tilts pār cieceres upi uz Jelgavas ielas",
-        "description": "Garums 7,13m <br/> Platums 2,36m <br/> augstums 1,2m",
+        "description": "",
         "sponsors": [
             {
                 "id": 1,
@@ -78,7 +78,7 @@ const BridgeData = [
     {
         "orderId": 6,
         "title": "Jelgavas ielas tilts",
-        "description": "Garums 7,13m <br/> Platums 2,36m <br/> augstums 1,2m",
+        "description": "",
         "sponsors": [
             {
                 "id": 1,
@@ -101,24 +101,24 @@ const BridgeData = [
                 "title": "SIA Libra Plast"
             },
         ],
-        "activities": "22.30 Senioru akordeonistu ansamblis “AKORDS”<br/>23.50 Laulību ceremonija"
+        "activities": 'pkst. 22.30 Saldus senioru akordeonistu ansamblis "Akords" <br>plkst 23.50 Laulību ceremonija'
     },
     {
         "orderId": 7,
         "title": "Sporta skolas gājēju tiltiņš",
-        "description": "Garums 7,13m <br/> Platums 2,36m <br/> augstums 1,2m",
+        "description": "Garums  18,60m <br> Platums 1,28 <br> Augstums 2m",
         "sponsors": [
             {
                 "id": 1,
                 "title": "SIA Jāņa centrs"
             }
         ],
-        "activities": "22.30 Gaismas ģimene “Baltās dūjas” un kapela “Strops”"
+        "activities": '22.30 Gaismas ģimene "Baltās dūjas" un kapela "Strops"'
     },
     {
         "orderId": 8,
         "title": "Mazais gājēju tilts",
-        "description": "Garums 7,13m <br/> Platums 2,36m <br/> augstums 1,2m",
+        "description": "Garums 10.90<br>Platums 3.90<br>Augstums 1.90",
         "sponsors": [
             {
                 "id": 1,
@@ -130,7 +130,7 @@ const BridgeData = [
     {
         "orderId": 9,
         "title": "Kuldīgas ielas tilts",
-        "description": "Garums 7,13m <br/> Platums 2,36m <br/> augstums 1,2m",
+        "description": "",
         "sponsors": [
             {
                 "id": 1,
@@ -146,19 +146,19 @@ const BridgeData = [
     {
         "orderId": 10,
         "title": "Tilts pie bērnu laukumiņa \"Pīļuks\"",
-        "description": "Garums 7,13m <br/> Platums 2,36m <br/> augstums 1,2m",
+        "description": "",
         "sponsors": [
             {
                 "id": 1,
                 "title": "SIA AZ Inter"
             }
         ],
-        "activities": "22.30 – 23.50 Bokss  - organizē Saldus Boksa klubs"
+        "activities": "plkst. 22.30 Boksa mači (Saldus Boksa klubs)"
     },
     {
         "orderId": 11,
         "title": "Tilts Saules ielā",
-        "description": "Garums 7,13m <br/> Platums 2,36m <br/> augstums 1,2m",
+        "description": "",
         "sponsors": [
             {
                 "id": 1,
@@ -170,7 +170,7 @@ const BridgeData = [
     {
         "orderId": 12,
         "title": "Tilts Skrundas ielā",
-        "description": "Garums 7,13m <br/> Platums 2,36m <br/> augstums 1,2m",
+        "description": "",
         "sponsors": [
             {
                 "id": 1,
@@ -186,7 +186,7 @@ const BridgeData = [
     {
         "orderId": 13,
         "title": "Dzirnavu ielas gājēju tilts",
-        "description": "Garums 7,13m <br/> Platums 2,36m <br/> augstums 1,2m",
+        "description": "",
         "sponsors": [
             {
                 "id": 1,
@@ -198,7 +198,7 @@ const BridgeData = [
     {
         "orderId": 14,
         "title": "Tilts no Čāpātāju kapiem uz Celtniekiem",
-        "description": "Garums 7,13m <br/> Platums 2,36m <br/> augstums 1,2m",
+        "description": "",
         "sponsors": [
             {
                 "id": 1,

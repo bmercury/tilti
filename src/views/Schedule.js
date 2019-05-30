@@ -8,6 +8,7 @@ function Schedule() {
         <div className="body schedule">    
             <h1>Novada svētki 2019 programma</h1>
             <hr/>
+            Vairāk informācijas meklē <a href="https://saldus.lv">saldus.lv</a> mājaslapā
 
             <div className="day">
               <h2>29. maijs <small>Ezerē</small></h2>
@@ -44,13 +45,13 @@ function Schedule() {
                 <b>plkst. 9.00</b> Svētku tirgus O.Kalpaka laukumā<br/><br/>
                 <b>no plkst. 10.00</b> Sportiskas aktivitātes Saldus sporta kompleksa teritorijā<br/>
                 <b>Flagbols, PRO basket biatlons</b><br/><br/>
-                <b>plkst. 10.00</b> 66North BALTIK velomaratons no Cieceres internātpamatskolas stadiona<br/><br/>
+                <b>plkstSIA “AZ Inter”. 10.00</b> 66North BALTIK velomaratons no Cieceres internātpamatskolas stadiona<br/><br/>
                 <b>plkst. 10.00 - 15.00</b> Dienas skatuve Lielajā ielā<br/>
-                <b>Saldus mazo vokālistu koncerts, Rīgas cirka skola, ansamblis "Akords", "Kas te? Es te!", burvju mākslinieks Dante Pecolli, grupa "rock'n'berries"</b><br/><br/>
+                <b>Saldus mazo vokālistu koncerts, Rīgas cirka skola, ansamblis "Akords", "Kas te? Es te!", burvju mākslinieks Roberts Trankalis, grupa "rock'n'berries"</b><br/><br/>
                 <b>plkst. 10.00 - 15.00</b> Jauniešu pļava (sētā aiz Saldus novada pašvaldības ēkas)<br/>
                 <b>Kendamas sacensības, grafiti meistarklases, sarunu šovs ar iedvesmotājiem</b><br/><br/>
                 <b>plkst. 10.00 - 16.00</b> Bērnu jampadracis spēļu laukumā "Pīļuks"<br/><br/>
-                <b>plkst. 10.00 - 16.00</b> Zemessardzes, Valsts policijas, Saldus Tehnikuma u.c. aktivitātes tirgus laukuma stāvlaukumā<br/><br/>
+                <b>plkst. 10.00 - 16.00</b> Zemessardzes, Valsts policijas u.c. aktivitātes tirgus laukuma stāvlaukumā, R.Zolmaņa motociklu kolekcija<br/><br/>
                 <b>plkst. 13.00</b> Draiskais skrējiens "Ciecernieks"<br/><br/>
                 <b>plkst. 13.00 - 16.00</b> Bārmeņu konkurss "Saldus 2019", degustācijas, šovs O.Kalpaka laukumā<br/><br/>
                 <b>plkst. 14.00</b> Cepļa atvēršana Kapelleru nama dārzā<br/><br/>
@@ -67,6 +68,7 @@ function Schedule() {
               <p>
                 <b>plkst. 12.00</b> Jaunauces pils dārza svētki
               </p>
+              
             </div>
 
         </div>

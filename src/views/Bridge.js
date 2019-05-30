@@ -15,6 +15,9 @@ class Bridge extends React.Component {
     const logo = selectedBridge.sponsors.map(i=>{
       return ( <div key={Math.random()*Math.random()} className="sponsorLogoImg"><img alt="Sponsora logo" src={require("../img/bridges/"+selectedBridge.orderId+"/sponsor"+i.id+".png")}/></div> );
     })
+    let bridgeDesc = <div><span className="bridgeDescription" dangerouslySetInnerHTML={{__html: selectedBridge.description}}></span><br/></div>;
+
+    if(selectedBridge.description.length <1) bridgeDesc = "";
 
     return (
       <div className="container">
@@ -23,9 +26,9 @@ class Bridge extends React.Component {
           <div className="paddingContainer">
             <span className="bridgeIdLabel">{selectedBridge.orderId}</span>
             <h1>{selectedBridge.title}</h1><br/>
-            <span className="bridgeDescription" dangerouslySetInnerHTML={{__html: selectedBridge.description}}></span><br/>
+            {bridgeDesc}
             <h3>Pasākumi šajā vietā</h3>
-            <span className="bridgeActivities">{selectedBridge.activities}</span>
+            <span className="bridgeActivities" dangerouslySetInnerHTML={{__html: selectedBridge.activities}}></span>
             <h3>Atbalstītāji</h3>
             <div className="sponsorLogos">
               {logo}

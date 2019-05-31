@@ -65,7 +65,7 @@ const BridgeData = [
     },
     {
         "orderId": 5,
-        "title": "Tilts pār cieceres upi uz Jelgavas ielas",
+        "title": "Tilts pār Cieceres upi uz Jelgavas ielas",
         "description": "",
         "sponsors": [
             {
@@ -125,7 +125,7 @@ const BridgeData = [
                 "title": "SIA Saldus meleorācija"
             }
         ],
-        "activities": "Gaismošana"
+        "activities": "Tilta gaismošana"
     },
     {
         "orderId": 9,
@@ -141,7 +141,7 @@ const BridgeData = [
                 "title": "SIA North 66 Baltic"
             }
         ],
-        "activities": "Gaismošana"
+        "activities": "Tilta gaismošana"
     },
     {
         "orderId": 10,
@@ -181,7 +181,7 @@ const BridgeData = [
                 "title": "A/S SEB banka"
             }
         ],
-        "activities": "gaismošana"
+        "activities": "Tilta gaismošana"
     },
     {
         "orderId": 13,
@@ -193,7 +193,7 @@ const BridgeData = [
                 "title": "SIA Vecvagari M"
             }
         ],
-        "activities": "gaismošana"
+        "activities": "Tilta gaismošana"
     },
     {
         "orderId": 14,
@@ -205,7 +205,7 @@ const BridgeData = [
                 "title": "SIA Naktsvārdi"
             }
         ],
-        "activities": "gaismošana"
+        "activities": "Tilta gaismošana"
     },
 ]
 

@@ -10,9 +10,10 @@ function Home() {
             <img className="logo" src={Logo} alt="Tilta attēls" />
         </div>
         <div className="body">    
-            Sadaļā "Karte" ir iespējams apskatīt visu izgaismoto tiltu izvietojumu.<br/> <br/>
-            Sadaļā "Tilti" atradīsi informāciju par katru no tiltiem.<br/> <br/>
-            Sadaļā "Programma" vari aplūkot pilnu svētku programmu ar visiem paredzētajiem pasākumiem un notikumiem.
+            Sadaļā "Karte" ir iespējams apskatīt visu izgaismoto tiltu izvietojumu. Uzspiežot uz tilta numuru, redzēsi tā aprakstu, programmu un atbalstītājus.<br/> <br/>
+            Vairāk informācijas par katru tiltu atradīsi sadaļā "tilti".<br/> <br/>
+            Sadaļā "Programma" vari aplūkot pilnu svētku programmu ar visiem paredzētajiem pasākumiem un notikumiem.<br/><br/>
+            Ja tomēr ir radušās šaubas vai vēlies uzzināt vairāk, apmeklē <a href="https://saldus.lv">saldus.lv</a> mājaslapu.
         </div>
         <Navbar />
         {/* <div className="buttons">
